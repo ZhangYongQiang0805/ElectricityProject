@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /web
+spring:
+  application:
+    name: web
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
